@@ -26,7 +26,7 @@ const AdviceCard = () => {
         <div className="flex flex-col bg-bg-card items-center justify-center w-[34rem] h-[22rem] rounded-lg">
             <div className=" absolute top-1"><p className=" text-adv text-sm mb-16 mt-10 ">A D V I C E # {count}</p></div>
           
-         <div><p className=" text-white text-28 ml-7 mr-7 justify-center text-center">"{advice}"</p></div> 
+         <div><p className=" text-white text-28 ml-7 mr-7 justify-center text-center">&quot;{advice}&quot;</p></div> 
           <div className=" mt-24 mb-16 absolute bottom-3 ">
             <Image src={pd} alt="divider" width="52rem" height='20rem'/>
 
